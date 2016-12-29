@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css?family=Handlee');
+
+html { min-height: 100%; }
+
+body {
+  background: radial-gradient(circle at bottom right, #fff, #999999); 
+}
+
+h1, h2, h3 { color: #fff; font-family: 'Handlee', cursive; text-shadow: 1px 1px 5px #000; }
+
+.center{
+	text-align: center;
+}
+
+.content-wrapper {
+    height: 500px;
+}
+
+.signup-panel {
+  padding: 15px;
+}
+
+.signup-panel i {
+  font-size: 30px;
+  line-height: 50px;
+  color: #999;
+}
+
+.signup-panel form input, .signup-panel form span {
+  height: 50px;
+}
+
+.signup-panel .welcome {
+  font-size: 26px;
+  text-align: center;
+  margin-left: 0;
+}
+
+.signup-panel .button {
+  margin-left: 35%;
+}
+
+section.active {
+	padding-top: 75px !important;
+}
+
+p.title {
+	border-bottom: 1px solid #cccccc !important;
+}
+
+input:disabled, input[readonly], textarea:disabled, textarea[readonly],
+.text-result {
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-weight: 300;
+    font-size: 18px
+}
+
+.content{
+	height: 450px;
+}
+
+.icon-list {}
+
+.menu-links a {color: #fff; font-size: 1.5em}
+.menu-links i {padding: 20px;}
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  left: 36px;
+  top: 36px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #373a47;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #bdc3c7;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #373a47;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+  padding: 0.8em;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+@media only screen and (max-width: 770px) {
+    .box-text,
+    .box-img {
+        margin-bottom: 20px;
+    }
+    .portfolio .item {
+        width: 49%;
+    }
+    .mm-open,
+    .mm-close {
+        left: 43%;
+    }
+    #subject {
+        margin-bottom: 20px;
+    }
+    header nav .mainMenu li {
+        padding: 20px 30px;
+    }
+    .c-info p {
+        float: left;
+    }
+    .blog-right-column {
+        padding-left: 10px;
+    }
+    .box-content.right-position {
+        padding: 0 0 100px 0;
+    }
+}
+@media only screen and (max-width: 750px) {
+    .page {
+        overflow-x: hidden;
+    }
+    .menu-button {
+        display: block;
+    }
+    header nav .mainMenu {
+        display: none;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .logo-content {
+        text-align: center;
+    }
+    .mini-menu {
+        display: block;
+    }
+    .mini-menu i {
+        cursor: pointer;
+    }
+    header nav .mainMenu li {
+        display: block;
+        border-top: 1px solid #eee;
+        border-left: 1px solid #eee;
+        border-right: 1px solid #eee;
+    }
+    header nav .mainMenu li:last-child {
+        border-bottom: 1px solid #eee;
+    }
+    .content-logo {
+        margin: 28px auto 5px;
+    }
+    .logo img {
+        height: 100px;
+    }
+    .box-content {
+        padding: 10px 0 100px 0;
+    }
+    #eegg {
+        height: 18px;
+        margin: 0 auto;
+        opacity: 0.03;
+        width: 200px;
+    }
+}
+@media only screen and (max-width: 730px) {
+    .portfolio .item {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 450px) {
+    .filter .current a {
+        border-bottom: 0px;
+        line-height: 30px;
+    }
+    .cl-effect-11 a::before {
+        content: "";
+        border-bottom: 0px;
+    }
+    .group {
+        margin-bottom: 100px;
+    }
+    .cl-effect-11 a:hover {
+        color: #111;
+    }
+    .blog-desc span.date-blog {
+        float: left;
+        width: 100%;
+    }
+    .blog-desc h2 {
+        padding-bottom: 17px;
+    }
+}
+@media only screen and (max-width: 420px) {
+    .signature {
+        display: none;
+    }
+    .box-text p.slogan {
+        font-size: 30px;
+    }
+    .mm-open,
+    .mm-close {
+        left: 33%;
+    }
+}
+@media only screen and (max-width: 321px) {
+    .box-text {
+        padding: 10px 13px 31px;
+    }
+    h2 {
+        margin-bottom: 20px;
+    }
+    .cl-effect-11 a {
+        font-size: 12px;
+    }
+    .grid figure figcaption p {
+        margin: 15% 0 10px 0;
+    }
+    .box-text p.slogan {
+        display: none;
+    }
+    .signature {
+        display: none;
+    }
+    .list-experiences h2 {
+        font-size: 12px;
+        letter-spacing: 0px;
+    }
+    .mm-open,
+    .mm-close {
+        left: 29%;
+    }
+}
